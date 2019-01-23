@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "Collection of subclasses that allow easy use of localized strings in storyboards and code."
+  s.description  = "This pod contains a collection of subclasses that allow easy use of localized strings in storyboards and code."
 
   s.homepage     = "https://github.com/netsells/EasyLocalizedStrings"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/netsells/EasyLocalizedStrings.git" }
+  s.source       = { :git => "https://github.com/netsells/EasyLocalizedStrings.git", : branch => "master" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
