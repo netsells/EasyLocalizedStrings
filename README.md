@@ -2,7 +2,7 @@
 
 ## Info
 * Allows easy use of localized strings no matter if you create your UI in IB or in code.
-* Contains a collection of UI component subclasses that contain an `@IBInspectable localizedKey property`.
+* Contains a collection of UI component subclasses that contain an `@IBInspectable localizedKey` property.
 * Set the key in IB or code and the localized string will be loaded in.
 
 ## Requirements
