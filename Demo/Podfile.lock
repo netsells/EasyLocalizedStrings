@@ -1,0 +1,16 @@
+PODS:
+  - EasyLocalizedStrings (0.0.2)
+
+DEPENDENCIES:
+  - EasyLocalizedStrings
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EasyLocalizedStrings
+
+SPEC CHECKSUMS:
+  EasyLocalizedStrings: b84b804b23ad6f8aec9d365300e066ccb2e2e419
+
+PODFILE CHECKSUM: f0bd4f128c696493757dadad3bc59529ddb8c9d4
+
+COCOAPODS: 1.5.3

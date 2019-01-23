@@ -1,0 +1,20 @@
+/* 
+  Localized.strings
+  Demo
+
+  Created by Alex on 23/01/2019.
+  Copyright © 2019 Tucanae. All rights reserved.
+*/
+
+"mainMessage" = "Hello World";
+
+"secondMessage" = "%@ is cool";
+
+"buttonTitle" = "Press me";
+
+"barButtonTitle" = "Can also press me";
+
+"textPlaceholder" = "I am a placeholder";
+
+"seg1" = "First message selected";
+"seg2" = "Second message selected";

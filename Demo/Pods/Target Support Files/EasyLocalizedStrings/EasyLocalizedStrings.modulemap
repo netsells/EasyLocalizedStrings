@@ -1,0 +1,6 @@
+framework module EasyLocalizedStrings {
+  umbrella header "EasyLocalizedStrings-umbrella.h"
+
+  export *
+  module * { export * }
+}
