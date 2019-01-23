@@ -1,5 +1,9 @@
 #  EasyLocalizedStrings
 
+## Installation
+* Available via CocoaPods `pod 'EasyLocalizedStrings'`
+
+
 ## Info
 * Allows easy use of localized strings no matter if you create your UI in IB or in code.
 * Contains a collection of UI component subclasses that contain an `@IBInspectable localizedKey` property.
