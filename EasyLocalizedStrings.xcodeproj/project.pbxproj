@@ -14,7 +14,65 @@
 		FA76A4D421F881D200F32E52 /* LocalizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76A4D121F881D200F32E52 /* LocalizedButton.swift */; };
 		FA76A4D521F881D200F32E52 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76A4D221F881D200F32E52 /* Localizable.swift */; };
 		FA76A4D621F881D200F32E52 /* LocalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76A4D321F881D200F32E52 /* LocalizedLabel.swift */; };
+		FAB76F2621F8BB1300D15FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB76EEA21F8BB1200D15FFB /* ViewController.swift */; };
+		FAB76F2721F8BB1300D15FFB /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB76EEB21F8BB1200D15FFB /* Main.strings */; };
+		FAB76F2821F8BB1300D15FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB76EED21F8BB1200D15FFB /* Assets.xcassets */; };
+		FAB76F2921F8BB1300D15FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB76EEE21F8BB1200D15FFB /* LaunchScreen.storyboard */; };
+		FAB76F2A21F8BB1300D15FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB76EF021F8BB1200D15FFB /* Main.storyboard */; };
+		FAB76F2B21F8BB1300D15FFB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB76EF221F8BB1200D15FFB /* Localizable.strings */; };
+		FAB76F2C21F8BB1300D15FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB76EF321F8BB1200D15FFB /* AppDelegate.swift */; };
+		FAB76F2D21F8BB1300D15FFB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB76EF421F8BB1200D15FFB /* Info.plist */; };
+		FAB76F2E21F8BB1300D15FFB /* Demo.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = FAB76EF521F8BB1200D15FFB /* Demo.xcworkspace */; };
+		FAB76F2F21F8BB1300D15FFB /* EasyLocalizedStrings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FAB76EFC21F8BB1300D15FFB /* EasyLocalizedStrings.xcconfig */; };
+		FAB76F3021F8BB1300D15FFB /* EasyLocalizedStrings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB76EFD21F8BB1300D15FFB /* EasyLocalizedStrings-dummy.m */; };
+		FAB76F3121F8BB1300D15FFB /* EasyLocalizedStrings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB76EFF21F8BB1300D15FFB /* EasyLocalizedStrings-umbrella.h */; };
+		FAB76F3221F8BB1300D15FFB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0021F8BB1300D15FFB /* Info.plist */; };
+		FAB76F3321F8BB1300D15FFB /* EasyLocalizedStrings-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = FAB76F0121F8BB1300D15FFB /* EasyLocalizedStrings-prefix.pch */; };
+		FAB76F3421F8BB1300D15FFB /* Pods-Demo-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0421F8BB1300D15FFB /* Pods-Demo-acknowledgements.markdown */; };
+		FAB76F3521F8BB1300D15FFB /* Pods-Demo-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0521F8BB1300D15FFB /* Pods-Demo-frameworks.sh */; };
+		FAB76F3621F8BB1300D15FFB /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB76F0621F8BB1300D15FFB /* Pods-Demo-dummy.m */; };
+		FAB76F3721F8BB1300D15FFB /* Pods-Demo-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0721F8BB1300D15FFB /* Pods-Demo-resources.sh */; };
+		FAB76F3821F8BB1300D15FFB /* Pods-Demo-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0821F8BB1300D15FFB /* Pods-Demo-acknowledgements.plist */; };
+		FAB76F3921F8BB1300D15FFB /* Pods-Demo.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0921F8BB1300D15FFB /* Pods-Demo.debug.xcconfig */; };
+		FAB76F3A21F8BB1300D15FFB /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB76F0A21F8BB1300D15FFB /* Pods-Demo-umbrella.h */; };
+		FAB76F3B21F8BB1300D15FFB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0B21F8BB1300D15FFB /* Info.plist */; };
+		FAB76F3C21F8BB1300D15FFB /* Pods-Demo.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0C21F8BB1300D15FFB /* Pods-Demo.release.xcconfig */; };
+		FAB76F3D21F8BB1300D15FFB /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F0D21F8BB1300D15FFB /* Manifest.lock */; };
+		FAB76F3E21F8BB1300D15FFB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F1121F8BB1300D15FFB /* LICENSE */; };
+		FAB76F3F21F8BB1300D15FFB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F1221F8BB1300D15FFB /* README.md */; };
+		FAB76F4021F8BB1300D15FFB /* LocalizedBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB76F1521F8BB1300D15FFB /* LocalizedBarButtonItem.swift */; };
+		FAB76F4121F8BB1300D15FFB /* LocalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB76F1621F8BB1300D15FFB /* LocalizedLabel.swift */; };
+		FAB76F4221F8BB1300D15FFB /* LocalizedSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB76F1721F8BB1300D15FFB /* LocalizedSegmentedControl.swift */; };
+		FAB76F4321F8BB1300D15FFB /* LocalizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB76F1821F8BB1300D15FFB /* LocalizedButton.swift */; };
+		FAB76F4421F8BB1300D15FFB /* LocalizedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB76F1921F8BB1300D15FFB /* LocalizedTextField.swift */; };
+		FAB76F4521F8BB1300D15FFB /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB76F1A21F8BB1300D15FFB /* Localizable.swift */; };
+		FAB76F4621F8BB1300D15FFB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F1B21F8BB1300D15FFB /* Podfile */; };
+		FAB76F4721F8BB1300D15FFB /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = FAB76F1C21F8BB1300D15FFB /* Podfile.lock */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB76F1E21F8BB1300D15FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB76EE621F8BB1200D15FFB /* Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA76A49B21F87C4800F32E52;
+			remoteInfo = Demo;
+		};
+		FAB76F2221F8BB1300D15FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB76EF721F8BB1200D15FFB /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA53600CE3BF125173CCA84014521B68;
+			remoteInfo = EasyLocalizedStrings;
+		};
+		FAB76F2421F8BB1300D15FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB76EF721F8BB1200D15FFB /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7FC40B345AF425ED0E451F9214F46D6F;
+			remoteInfo = "Pods-Demo";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA4CFBFA21F883E7001952CC /* LocalizedBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedBarButtonItem.swift; sourceTree = "<group>"; };
@@ -26,6 +84,44 @@
 		FA76A4D121F881D200F32E52 /* LocalizedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedButton.swift; sourceTree = "<group>"; };
 		FA76A4D221F881D200F32E52 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		FA76A4D321F881D200F32E52 /* LocalizedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedLabel.swift; sourceTree = "<group>"; };
+		FAB76EE621F8BB1200D15FFB /* Demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Demo.xcodeproj; sourceTree = "<group>"; };
+		FAB76EEA21F8BB1200D15FFB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB76EEC21F8BB1200D15FFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FAB76EED21F8BB1200D15FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB76EEF21F8BB1200D15FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB76EF121F8BB1200D15FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB76EF221F8BB1200D15FFB /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FAB76EF321F8BB1200D15FFB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB76EF421F8BB1200D15FFB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB76EF521F8BB1200D15FFB /* Demo.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Demo.xcworkspace; sourceTree = "<group>"; };
+		FAB76EF721F8BB1200D15FFB /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		FAB76EFC21F8BB1300D15FFB /* EasyLocalizedStrings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = EasyLocalizedStrings.xcconfig; sourceTree = "<group>"; };
+		FAB76EFD21F8BB1300D15FFB /* EasyLocalizedStrings-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyLocalizedStrings-dummy.m"; sourceTree = "<group>"; };
+		FAB76EFE21F8BB1300D15FFB /* EasyLocalizedStrings.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = EasyLocalizedStrings.modulemap; sourceTree = "<group>"; };
+		FAB76EFF21F8BB1300D15FFB /* EasyLocalizedStrings-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyLocalizedStrings-umbrella.h"; sourceTree = "<group>"; };
+		FAB76F0021F8BB1300D15FFB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB76F0121F8BB1300D15FFB /* EasyLocalizedStrings-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyLocalizedStrings-prefix.pch"; sourceTree = "<group>"; };
+		FAB76F0321F8BB1300D15FFB /* Pods-Demo.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
+		FAB76F0421F8BB1300D15FFB /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAB76F0521F8BB1300D15FFB /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		FAB76F0621F8BB1300D15FFB /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		FAB76F0721F8BB1300D15FFB /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
+		FAB76F0821F8BB1300D15FFB /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAB76F0921F8BB1300D15FFB /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB76F0A21F8BB1300D15FFB /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
+		FAB76F0B21F8BB1300D15FFB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB76F0C21F8BB1300D15FFB /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		FAB76F0D21F8BB1300D15FFB /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		FAB76F1121F8BB1300D15FFB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FAB76F1221F8BB1300D15FFB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAB76F1521F8BB1300D15FFB /* LocalizedBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedBarButtonItem.swift; sourceTree = "<group>"; };
+		FAB76F1621F8BB1300D15FFB /* LocalizedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedLabel.swift; sourceTree = "<group>"; };
+		FAB76F1721F8BB1300D15FFB /* LocalizedSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedSegmentedControl.swift; sourceTree = "<group>"; };
+		FAB76F1821F8BB1300D15FFB /* LocalizedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedButton.swift; sourceTree = "<group>"; };
+		FAB76F1921F8BB1300D15FFB /* LocalizedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedTextField.swift; sourceTree = "<group>"; };
+		FAB76F1A21F8BB1300D15FFB /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		FAB76F1B21F8BB1300D15FFB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		FAB76F1C21F8BB1300D15FFB /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +138,7 @@
 		FA76A4BB21F8815700F32E52 = {
 			isa = PBXGroup;
 			children = (
+				FAB76EE521F8BB1200D15FFB /* Demo */,
 				FA76A4C721F8815700F32E52 /* EasyLocalizedStrings */,
 				FA76A4C621F8815700F32E52 /* Products */,
 			);
@@ -78,6 +175,148 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		FAB76EE521F8BB1200D15FFB /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76EE621F8BB1200D15FFB /* Demo.xcodeproj */,
+				FAB76EE921F8BB1200D15FFB /* Demo */,
+				FAB76EF521F8BB1200D15FFB /* Demo.xcworkspace */,
+				FAB76EF621F8BB1200D15FFB /* Pods */,
+				FAB76F1B21F8BB1300D15FFB /* Podfile */,
+				FAB76F1C21F8BB1300D15FFB /* Podfile.lock */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		FAB76EE721F8BB1200D15FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76F1F21F8BB1300D15FFB /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB76EE921F8BB1200D15FFB /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76EEA21F8BB1200D15FFB /* ViewController.swift */,
+				FAB76EEB21F8BB1200D15FFB /* Main.strings */,
+				FAB76EED21F8BB1200D15FFB /* Assets.xcassets */,
+				FAB76EEE21F8BB1200D15FFB /* LaunchScreen.storyboard */,
+				FAB76EF021F8BB1200D15FFB /* Main.storyboard */,
+				FAB76EF221F8BB1200D15FFB /* Localizable.strings */,
+				FAB76EF321F8BB1200D15FFB /* AppDelegate.swift */,
+				FAB76EF421F8BB1200D15FFB /* Info.plist */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		FAB76EF621F8BB1200D15FFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76EF721F8BB1200D15FFB /* Pods.xcodeproj */,
+				FAB76EFA21F8BB1300D15FFB /* Target Support Files */,
+				FAB76F0D21F8BB1300D15FFB /* Manifest.lock */,
+				FAB76F0E21F8BB1300D15FFB /* Local Podspecs */,
+				FAB76F0F21F8BB1300D15FFB /* Headers */,
+				FAB76F1021F8BB1300D15FFB /* EasyLocalizedStrings */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAB76EF821F8BB1200D15FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76F2321F8BB1300D15FFB /* EasyLocalizedStrings.framework */,
+				FAB76F2521F8BB1300D15FFB /* Pods_Demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB76EFA21F8BB1300D15FFB /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76EFB21F8BB1300D15FFB /* EasyLocalizedStrings */,
+				FAB76F0221F8BB1300D15FFB /* Pods-Demo */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		FAB76EFB21F8BB1300D15FFB /* EasyLocalizedStrings */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76EFC21F8BB1300D15FFB /* EasyLocalizedStrings.xcconfig */,
+				FAB76EFD21F8BB1300D15FFB /* EasyLocalizedStrings-dummy.m */,
+				FAB76EFE21F8BB1300D15FFB /* EasyLocalizedStrings.modulemap */,
+				FAB76EFF21F8BB1300D15FFB /* EasyLocalizedStrings-umbrella.h */,
+				FAB76F0021F8BB1300D15FFB /* Info.plist */,
+				FAB76F0121F8BB1300D15FFB /* EasyLocalizedStrings-prefix.pch */,
+			);
+			path = EasyLocalizedStrings;
+			sourceTree = "<group>";
+		};
+		FAB76F0221F8BB1300D15FFB /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76F0321F8BB1300D15FFB /* Pods-Demo.modulemap */,
+				FAB76F0421F8BB1300D15FFB /* Pods-Demo-acknowledgements.markdown */,
+				FAB76F0521F8BB1300D15FFB /* Pods-Demo-frameworks.sh */,
+				FAB76F0621F8BB1300D15FFB /* Pods-Demo-dummy.m */,
+				FAB76F0721F8BB1300D15FFB /* Pods-Demo-resources.sh */,
+				FAB76F0821F8BB1300D15FFB /* Pods-Demo-acknowledgements.plist */,
+				FAB76F0921F8BB1300D15FFB /* Pods-Demo.debug.xcconfig */,
+				FAB76F0A21F8BB1300D15FFB /* Pods-Demo-umbrella.h */,
+				FAB76F0B21F8BB1300D15FFB /* Info.plist */,
+				FAB76F0C21F8BB1300D15FFB /* Pods-Demo.release.xcconfig */,
+			);
+			path = "Pods-Demo";
+			sourceTree = "<group>";
+		};
+		FAB76F0E21F8BB1300D15FFB /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		FAB76F0F21F8BB1300D15FFB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		FAB76F1021F8BB1300D15FFB /* EasyLocalizedStrings */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76F1121F8BB1300D15FFB /* LICENSE */,
+				FAB76F1221F8BB1300D15FFB /* README.md */,
+				FAB76F1321F8BB1300D15FFB /* EasyLocalizedStrings */,
+			);
+			path = EasyLocalizedStrings;
+			sourceTree = "<group>";
+		};
+		FAB76F1321F8BB1300D15FFB /* EasyLocalizedStrings */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76F1421F8BB1300D15FFB /* Sources */,
+			);
+			path = EasyLocalizedStrings;
+			sourceTree = "<group>";
+		};
+		FAB76F1421F8BB1300D15FFB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAB76F1521F8BB1300D15FFB /* LocalizedBarButtonItem.swift */,
+				FAB76F1621F8BB1300D15FFB /* LocalizedLabel.swift */,
+				FAB76F1721F8BB1300D15FFB /* LocalizedSegmentedControl.swift */,
+				FAB76F1821F8BB1300D15FFB /* LocalizedButton.swift */,
+				FAB76F1921F8BB1300D15FFB /* LocalizedTextField.swift */,
+				FAB76F1A21F8BB1300D15FFB /* Localizable.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -85,7 +324,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB76F3321F8BB1300D15FFB /* EasyLocalizedStrings-prefix.pch in Headers */,
 				FA76A4CA21F8815700F32E52 /* EasyLocalizedStrings.h in Headers */,
+				FAB76F3121F8BB1300D15FFB /* EasyLocalizedStrings-umbrella.h in Headers */,
+				FAB76F3A21F8BB1300D15FFB /* Pods-Demo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,10 +373,21 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = FA76A4BB21F8815700F32E52;
 			productRefGroup = FA76A4C621F8815700F32E52 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FAB76EE721F8BB1200D15FFB /* Products */;
+					ProjectRef = FAB76EE621F8BB1200D15FFB /* Demo.xcodeproj */;
+				},
+				{
+					ProductGroup = FAB76EF821F8BB1200D15FFB /* Products */;
+					ProjectRef = FAB76EF721F8BB1200D15FFB /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FA76A4C421F8815700F32E52 /* EasyLocalizedStrings */,
@@ -142,11 +395,56 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		FAB76F1F21F8BB1300D15FFB /* Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Demo.app;
+			remoteRef = FAB76F1E21F8BB1300D15FFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FAB76F2321F8BB1300D15FFB /* EasyLocalizedStrings.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EasyLocalizedStrings.framework;
+			remoteRef = FAB76F2221F8BB1300D15FFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FAB76F2521F8BB1300D15FFB /* Pods_Demo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Demo.framework;
+			remoteRef = FAB76F2421F8BB1300D15FFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		FA76A4C321F8815700F32E52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB76F3C21F8BB1300D15FFB /* Pods-Demo.release.xcconfig in Resources */,
+				FAB76F2B21F8BB1300D15FFB /* Localizable.strings in Resources */,
+				FAB76F2921F8BB1300D15FFB /* LaunchScreen.storyboard in Resources */,
+				FAB76F3221F8BB1300D15FFB /* Info.plist in Resources */,
+				FAB76F2D21F8BB1300D15FFB /* Info.plist in Resources */,
+				FAB76F3921F8BB1300D15FFB /* Pods-Demo.debug.xcconfig in Resources */,
+				FAB76F4721F8BB1300D15FFB /* Podfile.lock in Resources */,
+				FAB76F3E21F8BB1300D15FFB /* LICENSE in Resources */,
+				FAB76F3521F8BB1300D15FFB /* Pods-Demo-frameworks.sh in Resources */,
+				FAB76F2821F8BB1300D15FFB /* Assets.xcassets in Resources */,
+				FAB76F2E21F8BB1300D15FFB /* Demo.xcworkspace in Resources */,
+				FAB76F4621F8BB1300D15FFB /* Podfile in Resources */,
+				FAB76F3B21F8BB1300D15FFB /* Info.plist in Resources */,
+				FAB76F3721F8BB1300D15FFB /* Pods-Demo-resources.sh in Resources */,
+				FAB76F2721F8BB1300D15FFB /* Main.strings in Resources */,
+				FAB76F3F21F8BB1300D15FFB /* README.md in Resources */,
+				FAB76F2A21F8BB1300D15FFB /* Main.storyboard in Resources */,
+				FAB76F3D21F8BB1300D15FFB /* Manifest.lock in Resources */,
+				FAB76F3421F8BB1300D15FFB /* Pods-Demo-acknowledgements.markdown in Resources */,
+				FAB76F2F21F8BB1300D15FFB /* EasyLocalizedStrings.xcconfig in Resources */,
+				FAB76F3821F8BB1300D15FFB /* Pods-Demo-acknowledgements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,16 +455,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB76F4021F8BB1300D15FFB /* LocalizedBarButtonItem.swift in Sources */,
+				FAB76F4421F8BB1300D15FFB /* LocalizedTextField.swift in Sources */,
+				FAB76F4221F8BB1300D15FFB /* LocalizedSegmentedControl.swift in Sources */,
+				FAB76F2C21F8BB1300D15FFB /* AppDelegate.swift in Sources */,
 				FA76A4D621F881D200F32E52 /* LocalizedLabel.swift in Sources */,
 				FA4CFBFD21F885B3001952CC /* LocalizedTextField.swift in Sources */,
+				FAB76F3621F8BB1300D15FFB /* Pods-Demo-dummy.m in Sources */,
 				FA76A4D521F881D200F32E52 /* Localizable.swift in Sources */,
+				FAB76F4321F8BB1300D15FFB /* LocalizedButton.swift in Sources */,
+				FAB76F4121F8BB1300D15FFB /* LocalizedLabel.swift in Sources */,
 				FA4CFBFB21F883E7001952CC /* LocalizedBarButtonItem.swift in Sources */,
+				FAB76F2621F8BB1300D15FFB /* ViewController.swift in Sources */,
 				FA4CFBFF21F88710001952CC /* LocalizedSegmentedControl.swift in Sources */,
+				FAB76F3021F8BB1300D15FFB /* EasyLocalizedStrings-dummy.m in Sources */,
+				FAB76F4521F8BB1300D15FFB /* Localizable.swift in Sources */,
 				FA76A4D421F881D200F32E52 /* LocalizedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB76EEB21F8BB1200D15FFB /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB76EEC21F8BB1200D15FFB /* en */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		FAB76EEE21F8BB1200D15FFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB76EEF21F8BB1200D15FFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB76EF021F8BB1200D15FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB76EF121F8BB1200D15FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FA76A4CB21F8815700F32E52 /* Debug */ = {
