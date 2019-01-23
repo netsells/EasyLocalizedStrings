@@ -58,14 +58,14 @@
 		FA76A4C721F8815700F32E52 /* EasyLocalizedStrings */ = {
 			isa = PBXGroup;
 			children = (
-				FA76A4D021F8819900F32E52 /* Source */,
+				FA76A4D021F8819900F32E52 /* Sources */,
 				FA76A4C821F8815700F32E52 /* EasyLocalizedStrings.h */,
 				FA76A4C921F8815700F32E52 /* Info.plist */,
 			);
 			path = EasyLocalizedStrings;
 			sourceTree = "<group>";
 		};
-		FA76A4D021F8819900F32E52 /* Source */ = {
+		FA76A4D021F8819900F32E52 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				FA76A4D221F881D200F32E52 /* Localizable.swift */,
@@ -75,7 +75,7 @@
 				FA4CFBFC21F885B3001952CC /* LocalizedTextField.swift */,
 				FA4CFBFE21F88710001952CC /* LocalizedSegmentedControl.swift */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

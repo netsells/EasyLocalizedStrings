@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EasyLocalizedStrings"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Collection of subclasses that allow easy use of localized strings in storyboards and code."
 
   # This description is used to generate tags and improve search results.
@@ -63,6 +63,8 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios
+  s.ios.deployment_target = '11.0'
+
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -78,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/netsells/EasyLocalizedStrings.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/netsells/EasyLocalizedStrings.git", :branch => "master", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EasyLocalizedStrings/"
+  s.source_files  = "EasyLocalizedStrings/Sources/**/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
