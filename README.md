@@ -11,4 +11,5 @@
 
 ## Limitations
 * localizedKey works for localized strings that don't need placeholders. A method will be added to create formatted localized strings with reduced boilerplate. 
+* You won't be able to see the string in IB. You'll have to run the app to see it working.
 
