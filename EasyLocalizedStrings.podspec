@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/netsells/EasyLocalizedStrings.git", : branch => "master" }
+  s.source       = { :git => "https://github.com/netsells/EasyLocalizedStrings.git", :branch => "master" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
