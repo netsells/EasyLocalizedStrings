@@ -17,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA118C8121F88B5D0016A1F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FA4CFBFA21F883E7001952CC /* LocalizedBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedBarButtonItem.swift; sourceTree = "<group>"; };
 		FA4CFBFC21F885B3001952CC /* LocalizedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedTextField.swift; sourceTree = "<group>"; };
 		FA4CFBFE21F88710001952CC /* LocalizedSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedSegmentedControl.swift; sourceTree = "<group>"; };
@@ -62,7 +61,6 @@
 				FA76A4D021F8819900F32E52 /* Source */,
 				FA76A4C821F8815700F32E52 /* EasyLocalizedStrings.h */,
 				FA76A4C921F8815700F32E52 /* Info.plist */,
-				FA118C8121F88B5D0016A1F0 /* README.md */,
 			);
 			path = EasyLocalizedStrings;
 			sourceTree = "<group>";
